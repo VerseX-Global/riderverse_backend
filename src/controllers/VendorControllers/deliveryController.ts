@@ -68,7 +68,7 @@ export async function viewAllDelivery(request: Request, response: Response) {
         },
       });
       if(allDelivery.length <= 0){
-        return response.status(200).json({ message: 'No Delivery Found' });
+        return response.status(200).json({ message: 'No Delivery Found', data: allDelivery });
       }
       return response.status(200).json({ data: allDelivery });
     } catch (error) {
