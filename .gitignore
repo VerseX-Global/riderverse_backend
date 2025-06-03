@@ -1,0 +1,5 @@
+node_modules
+# Keep environment variables out of version control
+.env
+ridersVerse.zip
+mysql://freedb_ridersverse:gsJtF%23HjS%26hh2U%25@sql.freedb.tech:3306/freedb_ridersverse
